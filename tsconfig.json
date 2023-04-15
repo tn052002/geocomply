@@ -1,0 +1,15 @@
+{
+    "include":["./**/*"],
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/mocha-framework",
+            "@wdio/devtools-service"
+        ],
+        "target": "es2022"
+    }
+}
